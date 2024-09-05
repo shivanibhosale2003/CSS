@@ -1,0 +1,29 @@
+div{
+    height:300px;
+    width:300px;
+    background-color:pink;
+    border-width:10px;
+    border-style:dashed;
+    border-color:yellow;
+    border:2px solid red;
+     border-left-color:blue;
+    border-left-style:dotted;
+border-top:2px solid red;
+border-radius:10px;
+text-align:center;
+margin-bottom:50px;
+}
+h1{
+    border-width:20px;
+    border-style:dotted;
+    border-color:aquamarine;
+    background-color:bisque;
+    width:300px;
+    border-left-color:blueviolet;
+    border-top:30px solid yellow;
+    border-radius:10px;
+    text-align:center;
+}
+button{
+    border-radius:30px;
+}
