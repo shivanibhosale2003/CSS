@@ -16,5 +16,16 @@ div{
     margin:10px;
 }
 #one{
-    transform:rotate(360deg);
+    transform:rotate(180deg);
+}
+#two{
+    transform:scale(0.8);
+    transform:translatex(50px);
+    transform:skew(35deg);
+}
+#three{
+    transform:translate(45px,45px);
+}
+#four{
+    transform:skew(40deg);
 }
