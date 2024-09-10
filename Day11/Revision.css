@@ -1,0 +1,25 @@
+h1,h2{
+    color:rgb(203,200,255);
+    text-align: left;
+    font-weight: 900;
+    text-decoration: red underline;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    font-family: arial;
+}
+.un{
+    color:chocolate;
+}
+.un+h3{
+    color:blue;
+}
+input[type="text"]{
+    color:pink;
+}
+
+/* *{
+color:blue;
+font-family:arial;
+text-align: start;
+text-decoration: red underline;
+} */
