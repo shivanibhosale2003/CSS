@@ -6,6 +6,7 @@ h1,h2{
     line-height: 1.5;
     letter-spacing: 2px;
     font-family: arial;
+
 }
 .un{
     color:chocolate;
@@ -13,10 +14,39 @@ h1,h2{
 .un+h3{
     color:blue;
 }
-input[type="text"]{
-    color:pink;
+h1:hover{
+    color:black;
+    background-color: beige;
 }
-
+h2:hover{
+    background-color: aquamarine;
+}
+p:hover{
+    color:black;
+}
+ul:hover{
+    color:black;
+}
+ol:hover{
+    color:brown;
+}
+button:active{
+    color:green;
+    background-color: green;;
+}
+button:hover{
+    color:green;
+    background-color: black;;
+}
+h4::first-letter{
+color:pink;
+}
+p::first-line{
+    color:rgb(126, 196, 57);
+}
+p::selection{
+    background-color: blue;;
+}
 /* *{
 color:blue;
 font-family:arial;
