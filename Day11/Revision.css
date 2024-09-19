@@ -1,0 +1,55 @@
+h1,h2{
+    color:rgb(203,200,255);
+    text-align: left;
+    font-weight: 900;
+    text-decoration: red underline;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    font-family: arial;
+
+}
+.un{
+    color:chocolate;
+}
+.un+h3{
+    color:blue;
+}
+h1:hover{
+    color:black;
+    background-color: beige;
+}
+h2:hover{
+    background-color: aquamarine;
+}
+p:hover{
+    color:black;
+}
+ul:hover{
+    color:black;
+}
+ol:hover{
+    color:brown;
+}
+button:active{
+    color:green;
+    background-color: green;;
+}
+button:hover{
+    color:green;
+    background-color: black;;
+}
+h4::first-letter{
+color:pink;
+}
+p::first-line{
+    color:rgb(126, 196, 57);
+}
+p::selection{
+    background-color: blue;;
+}
+/* *{
+color:blue;
+font-family:arial;
+text-align: start;
+text-decoration: red underline;
+} */

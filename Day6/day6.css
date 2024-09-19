@@ -1,0 +1,40 @@
+button:hover {
+    background-color: black;
+    color:white;
+}
+h3:hover{
+    text-decoration:none;
+}
+button:active{
+    background-color: black;
+    color:pink;
+}
+p:active{
+    font-weight:bold;
+    color:green;
+}
+input[type="radio"]:checked+label{
+    color:red;
+    font-weight: bold;
+}
+.post:nth-of-type(1n){
+    background-color: blue;
+}
+h1::first-letter{
+    color:hotpink;
+}
+p::first-letter{
+    color:hotpink;
+}
+p::first-line{
+    color:brown;
+}
+p::selection{
+    background-color:aquamarine;
+}
+h3{
+    background-color:blue ;
+}
+h3{
+    background-color:yellow;
+}

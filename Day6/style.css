@@ -1,0 +1,17 @@
+div{
+    background-color: blue;
+
+}
+button{
+    background-color:inherit;
+}
+input{
+    background-color: inherit;
+}
+button:hover{
+    background-color: red;
+}
+.post{
+    color:white;
+    background-color: cornflowerblue;
+}

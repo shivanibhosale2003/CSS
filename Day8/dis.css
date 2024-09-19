@@ -1,0 +1,27 @@
+/* div{
+    height:100px;
+    width:100px;
+    background-color: yellow;
+    border:3px solid black;
+    margin:10px;
+    display:inline-block;
+} */
+h1{
+    border: 2px solid black;
+    width:25%;
+    background-color: pink;;
+}
+#outer{
+    height:400px;
+    width:400px;
+    background-color: pink;
+    margin:50px;
+    font-size:25px;
+}
+#inner{
+    height:200px;
+    width:200px;
+    background-color: yellow;
+    margin-left:20%;
+    font-size:0.5em;
+}
